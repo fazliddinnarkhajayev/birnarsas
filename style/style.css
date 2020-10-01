@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 800px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+}
+.top-title{
+  margin-bottom: 40px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.smily-img{
+  position: absolute;
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+.yellow-box:hover .smily-img{
+transform: translatey(-150px);
+opacity: 1;
+}
+.yellow-box:hover .smily-img-right{
+  transform:rotate(30deg) translateY(-150px) ;
+}
+.yellow-box:hover .smily-img-left{
+  transform: rotate(-30deg) translateY(-150px) ;
+}
+.yellow-box:hover{
+  transform:translatey(-10px);
+  box-shadow: 0px 5px 50px 0px  grey;
+}
+.blue-box:hover{
+  transform:translatey(-10px);
+  box-shadow: 0px 5px 50px 0px  grey;
+}
+
+.yellow-box{
+  background-color:#ffd356;
+  padding: 35px;
+  width: 340px;
+  justify-content: flex-start;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.yellow-button{
+  background-color:#6672e5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.blue-box{
+  background-color:#6672e5;
+  padding: 35px;
+  width: 340px;
+  justify-content: flex-start;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.blue-button{
+  background-color: #ffd356;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.blue-box:hover .smily-img{
+  transform: translatey(-150px);
+  opacity: 1;
+  }
+  .blue-box:hover .smily-img-right{
+    transform:rotate(30deg) translateY(-150px) ;
+  }
+  .blue-box:hover .smily-img-left{
+    transform: rotate(-30deg) translateY(-150px) ;
+  }
+
+
+  .second-part{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    width: 900px;
+    text-align: center;
+  }
+   .second-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   }
+  .parts{
+    width: 260px;
+  }
+
+
+
+
+  .challenge-part{
+  text-align: start;
+  margin-left: 110px;
+  }
+  .challenge-img{
+    margin-left: 110px;
+  }
+.challenge{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1216px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+
+}
+.challenge-menu{
+  list-style: none;
+
+}
+.challenge-list{
+  width: 350px;
+  margin-bottom: 15px;
+}
+  .challenge-page{
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+
+  .course{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1216px;
+    text-align: center;
+
+  }
+  .course-menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+  }
+  .course-list{
+    width: 576px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align:start ;
+  }
+
+  .course-img{
+    border-radius: 100px;
+    margin-right: 40px;
+
+  }
+  .div-list{
+    width: 472px;
+  }
